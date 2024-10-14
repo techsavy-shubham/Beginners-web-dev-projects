@@ -28,13 +28,7 @@ notesContainer.addEventListener("click",function(e){
     else if(e.target.tagName==="p"){
         notes =document.querySelectorAll(".input-box");
         notes.forEach(nt=>{
-/*************  ✨ Codeium Command ⭐  *************/
-            /**
-             * Update the storage with the new text
-             * @listens p#input-box:keyup
-             * @function
-             */
-/******  0c2ee5b5-c768-499b-b939-306cafa9f5f3  *******/
+
             nt.onkeyup=function(){
                 updateStorage();
             }
